@@ -1,0 +1,27 @@
+.navbar{
+    @apply pt-[50px] hidden lg:block
+}
+.nav_row .nav_logo img{
+    @apply w-[149px] inline-block
+}
+.nav_row{
+    @apply flex justify-between
+}
+.menu ul{
+    @apply flex gap-10
+}
+.menu ul li a{
+    @apply text-[16px] font-normal font-rubik text-[#4F5665]
+}
+.nav_button a{
+    @apply text-[16px] py-[13px] px-[45px] border-[none] rounded-[50px] font-rubik font-medium text-[#0B132A] transition duration-[.3s]
+}
+.buttonOne:hover{
+    @apply border-[1px] border-[#F53855] text-[#F53855]
+}
+.buttonTwo{
+    @apply border-[1px] border-[#F53855] text-[#F53855]
+}
+.buttonTwo:hover{
+    @apply text-[#0B132A] border-transparent
+}

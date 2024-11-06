@@ -1,0 +1,28 @@
+.mobNav{
+    @apply lg:hidden pt-5
+}
+.mobMenu_logo img{
+    @apply w-[110px] inline-block
+}
+.mobMenu_row{
+    @apply flex justify-between
+}
+.menu_icon{
+    @apply py-1 px-2 border-2 border-[#4F5665]
+    hover:shadow-[5px_5px_rgba(0,_98,_90,_0.4),_10px_10px_rgba(0,_98,_90,_0.3),_15px_15px_rgba(0,_98,_90,_0.2),_20px_20px_rgba(0,_98,_90,_0.1),_25px_25px_rgba(0,_98,_90,_0.05)]
+}
+.menu_text{
+    @apply mt-1
+}
+.menu_text  li a{
+    @apply text-[14px]
+}
+.mob_button{
+    @apply mt-2 flex gap-3
+}
+.mob_button a{
+    @apply text-[14px] py-[7px] px-[15px] border-[1px] rounded-[25px] font-rubik font-medium text-[#0B132A] transition duration-[.3s] 
+}
+.mob_button a:hover{
+    @apply border-[1px] border-[#F53855]
+}
